@@ -1,0 +1,610 @@
+::before,
+::after {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+  }
+
+ul,
+ol,
+li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-size: inherit;
+   font-weight: inherit;
+}
+
+html,
+body {
+   padding: 0;
+   margin: 0;
+   height: 100%;
+   line-height: 1;
+   color: #8D96BD;
+   font-size: 15px;
+   font-family: Quicksand;
+   font-weight: 500;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+.container {
+   max-width: 1440px;
+   margin: 0px auto;
+}
+
+
+/* ----------------------------ШАПКА---------------------------- */
+
+.header {
+   
+   width: 100%;
+   left: 0;
+   top: 0;
+   z-index: 50;
+   background-color: white;
+}
+.header-container {
+   max-width: 1440px;
+   display: flex;
+   height: 80px;
+   align-items: center;
+   flex-flow: row nowrap;
+   justify-content: flex-start;
+}
+
+.header-logo {
+   margin-left: 117px;
+}
+
+.menu {
+   margin-left: 73px;
+   flex-grow: 1;
+}
+
+.menu-list {
+   display: flex;
+   flex-flow: row nowrap;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+ }
+
+.menu-item {
+   margin-right: 40px;
+}
+
+.menu-item:last-child {
+   margin: 0 0 0 0;
+}
+
+.menu-item a {
+   padding: 3px 1px;
+   font-size: 12px;
+   line-height: 15px;
+   color: #697CA6;
+   font-weight: 500;
+   align-items: center;
+}
+
+.menu-item a:hover {
+   color: #5E81FE;
+   padding: 3px 1px;
+   font-size: 12px;
+   line-height: 15px;
+   font-weight: 700;
+   align-items: center;
+}
+
+
+
+
+.social-list {
+   display: flex;
+}
+
+/* ----------------------------СОЦ СЕТИ---------------------------- */
+
+.social {
+   margin-right: 35px;
+}
+
+.facebook {
+   display: block;
+   background-image: url(img/social/facebook.svg);
+   width: 9px; 
+   height: 17px;
+   
+}
+
+.facebook:hover {
+   display: block;
+   background-image: url(img/social/facebook-hover.svg);
+   width: 9px; 
+   height: 17px;
+}
+
+.facebook:visited {
+   display: block;
+   background-image: url(img/social/facebook-visited.svg);
+   width: 9px; 
+   height: 17px;
+}
+
+
+.telegram {
+   display: block;
+   background-image: url(img/social/telegram.svg);
+   width: 15px; 
+   height: 13px;
+}
+
+.telegram:hover {
+   display: block;
+   background-image: url(img/social/telegram-hover.svg);
+   width: 15px; 
+   height: 13px;
+}
+
+.telegram:visited {
+   display: block;
+   background-image: url(img/social/telegram-visited.svg);
+   width: 15px; 
+   height: 13px;
+}
+
+
+.twitter {
+   display: block;
+   background-image: url(img/social/twitter.svg);
+   width: 18px; 
+   height: 14px;
+}
+
+.twitter:hover {
+   display: block;
+   background-image: url(img/social/twitter-hover.svg);
+   width: 18px; 
+   height: 14px;
+}
+
+.twitter:visited {
+   display: block;
+   background-image: url(img/social/twitter-visited.svg);
+   width: 18px; 
+   height: 14px;
+}
+
+.m-social {
+   display: block;
+   background-image: url(img/social/m.svg);
+   width: 17px; 
+   height: 14px;
+}
+
+.m-social:hover {
+   display: block;
+   background-image: url(img/social/m-hover.svg);
+   width: 17px; 
+   height: 14px;
+}
+
+.m-social:visited {
+   display: block;
+   background-image: url(img/social/m-visited.svg);
+   width: 17px; 
+   height: 14px;
+}
+
+
+.button {
+   margin-right: 117px;
+   margin-left: 10px;
+   padding: 13px 16px;
+   border: none;
+   color: #3A79FF;
+   background: #D2E1FF;
+   border-radius: 2px;
+   cursor: pointer;
+   font-weight: 700;
+   font-size: 13px;
+   line-height: 16.25px;
+   }
+
+
+/* ----------------------------ГРАФИК---------------------------- */
+
+.chart {
+   width: 1440px;
+   height: 570px;
+   margin: 0px auto;
+   left: 0;
+   top: 0;
+   z-index: 50;
+   background: url(img/hero\ image.png);
+}
+
+.chart-text {
+   margin: 0;
+   position: relative;
+   width: 581px;
+   height: 266px;
+   top: 92px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1 {
+   font-size: 48px;
+   font-weight: 300;
+   line-height: 60px;
+   color: #3D4F9F;
+   text-align: center;
+}
+
+h1 b {
+   font-weight: 500;
+}
+
+
+h4 {
+   width: 502px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   color: #3D4F9F;
+   letter-spacing: 0.1em;
+   font-size: 10px;
+   text-transform: uppercase;
+}
+
+.chart-text-small {
+   width: 502px;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   text-align: center;
+}
+
+.logos {
+   height: 145px;
+   width: 1440px;
+   background: white;
+   margin: 0px auto;
+   left: 0;
+   top: 0;
+   z-index: 50; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.logos-list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 29px;
+}
+
+.logos-item {
+   margin-left: 76px;
+}
+
+.logos-item:last-child {
+   margin-right: 0;
+}
+
+.chart-button {
+   padding: 0;
+   border: none;
+   font: inherit;
+   color: inherit;
+   background-color: transparent;
+}
+/* ----------------------------ЛОГОТИПЫ---------------------------- */
+
+.bitbucket {
+   display: block;
+   background-image: url(img/logos/bitbucket.svg);
+   width: 117px; 
+   height: 29px;
+}
+
+.bitbucket:hover {
+   display: block;
+   background-image: url(img/logos/bitbucket-hover.svg);
+   width: 117px; 
+   height: 29px;
+}
+
+.apple-watch {
+   display: block;
+   background-image: url(img/logos/apple-watch.svg);
+   width: 117px; 
+   height: 25px;
+   display: block;
+}
+
+.apple-watch:hover {
+   display: block;
+   background-image: url(img/logos/apple-watch-hover.svg);
+   width: 117px; 
+   height: 25px;
+   display: block;
+}
+
+.fb {
+   display: block;
+   background-image: url(img/logos/facebook.svg);
+   width: 117px; 
+   height: 23px;
+}
+
+.fb:hover {
+   display: block;
+   background-image: url(img/logos/facebook-hover.svg);
+   width: 117px; 
+   height: 23px;
+}
+
+.atlassian {
+   display: block;
+   background-image: url(img/logos/atlassian.svg);
+   width: 117px; 
+   height: 24px;
+}
+
+.atlassian:hover {
+   display: block;
+   background-image: url(img/logos/atlassian-hover.svg);
+   width: 117px; 
+   height: 24px;
+}
+
+.audi {
+   display: block;
+   background-image: url(img/logos/audi.svg);
+   width: 117px; 
+   height: 29px;
+}
+
+.audi:hover {
+   display: block;
+   background-image: url(img/logos/audi-hover.svg);
+   width: 117px; 
+   height: 29px;
+}
+
+/* ----------------------------DESKTOP AND MOBILE APP---------------------------- */
+
+.app {
+   width: 1440px;
+   height: 776px;
+   background: #F5F8FF;
+   margin: 0px auto;
+   left: 0;
+   top: 0;
+   z-index: 50; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.app-text {
+   width: 413px;
+   height: 348px;
+   z-index: 2;
+}
+
+h2 {
+   font-size: 36px;
+   font-weight: 300;
+   line-height: 45px;
+   color: #3D4F9F;
+   text-align: start;
+}
+
+h2 b {
+   font-weight: 500;
+}
+
+.app-text h4{
+   text-align: start;
+}
+
+.app-text p {
+   font-size: 15px;
+   line-height: 29px;
+   letter-spacing: 3%;
+   color: #8D96BD;
+}
+
+.app-img {
+   width: 653px;
+   height: 436px;
+}
+
+.app-button {
+   padding: 0;
+   border: none;
+   font-family: Quicksand;
+   font-size: 12px;
+   font-weight: 500;
+   color: #FFFFFF;
+   height: 43px;
+   width: 130px;
+   background-color: #4C85FF;
+   
+}
+
+.app-button2 {
+   padding: 0;
+   border: #D1D1E4 1px solid;
+   display: inline-block;
+   width: 130px;
+   height: 43px;
+   color: #ADB4D2;
+   font-size: 12px;
+   background-color: transparent;
+   margin-left: -4px;
+}
+
+.app-img {
+   margin-left: -95px;
+}
+
+/* ----------------------------ABOUT US---------------------------- */
+
+.about-us {
+   width: 1440px;
+   height: 885px;
+   margin: 0px auto;
+   left: 0;
+   top: 0;
+   z-index: 50;
+   background: url(img/features.png);
+   
+   
+}
+
+.about-us h4 {
+   margin-top: 171px;
+   margin-bottom: 20px;
+}
+
+.about-us h3 {
+   margin-bottom: 92px;
+   line-height: 30px;
+   font-size: 24px;
+   font-weight: 500px;
+   color: #3D4F9F;
+}
+
+.about-us-info {
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.about-us-info-blocks {
+   display: flex;
+   width: 761px;
+   height: 254px;
+   margin: 0px auto;
+}
+
+.about-us-info-block {
+   width: 140px;
+   height: 254px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.about-us-line {
+   width: 67px;
+   height: 254px;
+   position: relative;
+ }
+
+.about-us-line img {
+   position: absolute;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   margin: auto;
+}
+
+.about-us-info-block a {
+   margin-top: 33px;
+   margin-bottom: 25px;
+   color: #4074F8;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 25px;
+}
+
+.about-us-info-block p {
+   color: #ADB3CB;
+   font-weight: 600;
+   font-size: 11px;
+   line-height: 20px;
+   text-align: center;
+}
+
+
+.about-us-buttons {
+   display: flex;
+   margin-top: 92px;
+   left: 0;
+   top: 0;
+   z-index: 50; 
+   align-items: center;
+   justify-content: center;
+}
+
+.about-us-buttons-read-more {
+   padding: 0;
+   border: none;
+   font: inherit;
+   color: inherit;
+   height: 43px;
+   width: 113px;
+   border-radius: 2px;
+   display: inline-block;
+   background-color: #FFD7D7;
+   font-weight: 700px;
+   font-size: 13px;
+   color: #D43F3F;
+}
+
+.about-us-buttons-get-started {
+   padding: 0;
+   border: none;
+   font: inherit;
+   color: inherit;
+   height: 43px;
+   width: 113px;
+   border-radius: 2px;
+   display: inline-block;
+   background-color: #D2E1FF;
+   font-weight: 700px;
+   font-size: 13px;
+   color: #3A79FF;
+
+}
+
+.about-us-buttons-line {
+   margin: 0 16px;
+}
+   
+   
+   
+   
+   
